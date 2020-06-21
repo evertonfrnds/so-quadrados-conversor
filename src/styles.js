@@ -57,7 +57,7 @@ export const InputContainer = styled.div`
     display: flex;
     padding: 10px 5px;
     border: 2px solid lightgreen;
-    height: 300px;
+    height: 350px;
     margin: 10px;
     flex: 1;
     @media only screen and (max-width:800px) {
@@ -66,14 +66,16 @@ export const InputContainer = styled.div`
 `;
 
 export const ResultContainer = styled.div`
+    display: flex;
     border: 2px solid lightblue;
     padding: 10px 5px;
-    height: 300px;
+    height: 350px;
     margin: 10px;
     flex: 1;
     @media only screen and (max-width:800px) {
         flex: 1;
     }
+    position: relative;
 `;
 
 export const Input = styled.textarea`
@@ -81,4 +83,21 @@ export const Input = styled.textarea`
     border: 0;
     font-size:18px;
     resize: none;
+    font-weight: 500;
+`;
+
+export const ResultArea = styled.textarea`
+    font-size:18px;
+    font-weight: 500;
+    flex: 1;
+    border: 0;
+    resize: none;
+`;
+
+export const LabelCopy = styled.button`
+    position: absolute;
+    z-index: 2;
+    right:0;
+    bottom: 0;
+    margin: 0 5px 5px 0;
 `;
