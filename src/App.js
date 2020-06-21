@@ -1,12 +1,21 @@
 import React from 'react';
 import './App.css';
-
+import {Container, Header, Footer, Line} from './styles.js'
 import GlobalStyles from './styles/GlobalStyles';
 
 function App() {
   return (
     <>
-    <h1>Hello World</h1>
+    <Header>
+      Só quadrados conversor
+      <Line/>
+    </Header>
+    <Container>
+
+    </Container>
+    <Footer>
+
+    </Footer>
 
     <GlobalStyles/>
     </>
