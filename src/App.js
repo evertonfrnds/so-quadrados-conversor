@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
 
+import GlobalStyles from './styles/GlobalStyles';
+
 function App() {
   return (
-    <div className="App">
-      Olá Mundo
-    </div>
+    <>
+    <h1>Hello World</h1>
+
+    <GlobalStyles/>
+    </>
   );
 }
 
