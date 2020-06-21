@@ -4,6 +4,7 @@ export default createGlobalStyle`
     * {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
     }
     html, body, #root{
         height: 100%;
@@ -20,7 +21,6 @@ export default createGlobalStyle`
     }
     *, button, input {
         font-family: 'Roboto', sans-serif;
-        border: 0;
         outline: 0;
     }
 `;
